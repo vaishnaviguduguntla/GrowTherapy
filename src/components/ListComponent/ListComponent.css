@@ -1,0 +1,13 @@
+.ListComponent {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    align-items: center;
+}
+.Paginaton {
+    display: flex;
+    flex-direction: row;
+    width: 700px;
+    align-items: center;
+    padding:0;
+}

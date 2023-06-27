@@ -1,0 +1,21 @@
+.circle {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    border: 1px solid var(--neutral-400, #D4D8D9);
+    background: var(--neutral-000, #FFF);
+}
+
+.NoStyleButton, .NoStyleButton:focus{
+    outline: none;
+    background: transparent;
+    border: 1px solid transparent;
+}
+.NoStyleButton:active{
+    outline: none;
+    background: transparent;
+    border: 1px solid grey;
+}

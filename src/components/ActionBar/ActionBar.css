@@ -1,0 +1,57 @@
+.ActionBar {
+    display: flex;
+    flex-direction: row;
+    width: 800px;
+    height: 96px;
+    padding: 16px;
+    align-items: center;
+    gap: 16px;
+    border-radius: 100px;
+    background: var(--neutral-000, #FFF);
+    /* New Card Dropshadow/Neutral */
+    box-shadow: 0px 2px 0px 1px rgba(5, 9, 13, 0.06);
+  }
+  .DatePicker {
+    display: flex;
+    flex-direction: row;
+    height: 48px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    border: 0;
+    margin-left: 30px;
+  }
+  .NumCount {
+    display: flex;
+    flex-direction: row;
+    height: 48px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+  }
+  .CountryPicker {
+    display: flex;
+    flex-direction: row;
+    height: 48px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+  }
+  .Flex-item {
+    flex-grow: 1;
+  }
+  .Flex-item + .Flex-item {
+    border-left: dashed 1px grey;
+    padding-left: 50px;
+  }
+  
+  /** Optional for OPs exact layout */
+  
+  .Flex-item:first-child {
+    text-align: left;
+  }
+  
+  .Flex-item:last-child {
+    text-align: right;
+    border: 0;
+  }

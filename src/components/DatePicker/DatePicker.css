@@ -1,0 +1,45 @@
+.datepicker-input {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+  }
+  
+  .datepicker-input input {
+    padding-right: 30px; /* Adjust as needed */
+    border: 0;
+    color: #000;
+    font-size: 16px;
+    font-family: Poppins;
+    line-height: 24px;
+    letter-spacing: -0.32px;
+  }
+  
+  .datepicker-icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    left: -30px;
+    color: var(--brand-green-500, #025B4B);
+    font-size: 20px;
+    font-family: Font Awesome 6 Pro;
+    font-weight: 300;
+    line-height: 16px;
+    letter-spacing: 1px;  
+    display: flex;
+    height: 48px;
+    padding: 16px 14.5px 16px 13.5px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    background: var(--avocado-200, #ECF1E0);
+  }
+  .LabelTitle {
+    color: var(--neutral-500, #A7AAAB);
+    font-size: 12px;
+    font-family: Poppins;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.6px;
+  }

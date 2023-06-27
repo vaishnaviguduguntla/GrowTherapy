@@ -1,0 +1,19 @@
+.PaginationBar {
+    display: flex;
+    width: 800px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding:0;
+   
+}
+.Fixed {
+    position: Fixed;
+}
+.Scrollable {
+    max-width: 600px;
+    display: flex;
+    padding: 0;
+    overflow-x: auto;
+}
